@@ -1,3 +1,6 @@
+spring:
+  profiles: default
+
 msaconfig:
   greeting: "hello"
 
