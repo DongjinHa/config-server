@@ -4,8 +4,7 @@ msaconfig:
 ---
 
 spring:
-  profiles:
-    active: local
+  profiles: local
 
 msaconfig:
   greeting: "welcome to local server"
@@ -13,8 +12,7 @@ msaconfig:
 ---
 
 spring:
-  profiles:
-    active: dev
+  profiles: dev
 
 msaconfig:
   greeting: "welcome to dev server"
@@ -22,8 +20,7 @@ msaconfig:
 ---
 
 spring:
-  profiles:
-    active: test
+  profiles: test
 
 msaconfig:
   greeting: "welcome to test server"
@@ -31,8 +28,7 @@ msaconfig:
 ---
 
 spring:
-  profiles:
-    active: staging
+  profiles: staging
 
 msaconfig:
   greeting: "welcome to staging server"
@@ -40,8 +36,7 @@ msaconfig:
 ---
 
 spring:
-  profiles:
-    active: prod
+  profiles: prod
 
 msaconfig:
   greeting: "welcome to prod server"
